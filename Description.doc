@@ -1,0 +1,38 @@
+id – A unique identifier for each customer (e.g., JMAN_2429072).
+
+score_date – The date when the score was recorded (format: DD-MM-YYYY).
+
+segment_smb – Binary flag (1 or 0); 1 indicates the customer belongs to the Small and Medium Business (SMB) segment.
+
+segment_non_smb – Binary flag (1 or 0); 1 indicates the customer does not belong to the SMB segment.
+
+segment_commercial – Binary flag (1 or 0); 1 indicates the customer belongs to the commercial segment.
+
+segment_enterprise – Binary flag (1 or 0); 1 indicates the customer belongs to the enterprise segment.
+
+segment_midmarket – Binary flag (1 or 0); 1 indicates the customer belongs to the mid-market segment.
+
+region_emea – Binary flag (1 or 0); 1 indicates the customer is from Europe, the Middle East, or Africa (EMEA).
+
+region_apac – Binary flag (1 or 0); 1 indicates the customer is from the Asia-Pacific (APAC) region.
+
+region_latam – Binary flag (1 or 0); 1 indicates the customer is from Latin America (LATAM).
+
+region_amer – Binary flag (1 or 0); 1 indicates the customer is from North America (AMER).
+
+customer_age_quarters – Number of quarters (3-month periods) since the customer was acquired.
+
+sales_assisted – Binary flag (1 or 0); 1 indicates the customer was assisted by a salesperson.
+
+legacy_flag – Binary flag (1 or 0); 1 indicates the customer is using a legacy product/service.
+
+product_counts – The number of products the customer has purchased.
+
+billing_dunning_not_ok – Binary flag (1 or 0); 1 indicates that there are billing issues or dunning (failure to collect payment) problems.
+
+crm_industry_current – The industry classification of the customer based on CRM data (e.g., "Retail, Wholesale & Distribution").
+
+crm_employee_range – The range of employee count for the customer organization (e.g., 100 - 249).
+
+crm_success_owner_change – Binary flag (1 or 0); 1 indicates a change in the CRM success owner (i.e., the person responsible for managing the customer relationship in CRM).
+
